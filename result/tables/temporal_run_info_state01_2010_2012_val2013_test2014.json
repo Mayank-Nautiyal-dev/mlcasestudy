@@ -1,0 +1,24 @@
+{
+  "state_code": "01",
+  "train_years": "2010-2012",
+  "validation_year": 2013,
+  "test_year": 2014,
+  "train_n": 1067931,
+  "validation_n": 207233,
+  "test_n": 222546,
+  "train_prevalence": 0.3454520938150498,
+  "validation_prevalence": 0.33209479185264895,
+  "test_prevalence": 0.3317067033332435,
+  "global_training_rate_for_baselines": 0.3454520938150498,
+  "feature_encoding": "one-hot with rare-category grouping plus binary act-section tokens; fitted on training years only",
+  "threshold_selection": "maximize F1 on validation year; fixed before test scoring",
+  "knn_scope": "20,000 training cases, 5,000 validation cases, 5,000 test cases, stratified samples",
+  "temporal_sample_fractions": {
+    "train": 0.4,
+    "validation": 0.2,
+    "test": 0.2
+  },
+  "label_rule": "valid disposal date after third calendar anniversary; pending cases with DDL disposition-missing code and plausible last-list date after anniversary are positive; other unresolved cases censored/excluded",
+  "last_list_plausibility_ceiling": "2021-12-31 (data-quality ceiling, not source cutoff)",
+  "best_model_by_roc_auc": "logistic_regression_balanced"
+}

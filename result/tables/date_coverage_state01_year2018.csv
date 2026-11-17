@@ -1,0 +1,15 @@
+measure,value
+filing_year_source_rows,13724299
+selected_state_rows,1374670
+missing_or_sentinel_decision_date,761016
+valid_decision_dates,613654
+valid_decisions_after_2018_12_31,90845
+date_of_decision_minimum_valid,2003-01-01
+date_of_decision_maximum_valid,2020-09-15
+date_of_decision_valid_after_2018_12_31,90845
+date_last_list_minimum_valid,2008-12-12
+date_last_list_maximum_valid,2108-12-26
+date_last_list_valid_after_2018_12_31,641763
+date_next_list_minimum_valid,2010-07-13
+date_next_list_maximum_valid,2219-02-28
+date_next_list_valid_after_2018_12_31,849321
